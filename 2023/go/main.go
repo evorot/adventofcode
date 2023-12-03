@@ -3,12 +3,14 @@ package main
 import (
 	"aoc2023/day1"
 	"aoc2023/day2"
+	"aoc2023/day3"
 	"fmt"
 )
 
 func main() {
 	wrap(day1.Puzzle1, day1.Puzzle2)
 	wrap(day2.Puzzle1, day2.Puzzle2)
+	day3.Puzzle1()
 }
 
 func wrap(puzzle1, puzzle2 func()) {
