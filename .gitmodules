@@ -1,3 +1,6 @@
 [submodule "2022"]
 	path = 2022
 	url = https://github.com/evorot/adventofcode2022.git
+[submodule "2021"]
+	path = 2021
+	url = https://github.com/evorot/adventofcode2021.git
